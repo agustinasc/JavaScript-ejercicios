@@ -286,8 +286,19 @@ obtenerNota(12)   // "Puntaje inválido" */
         //Crear una función jugarPiedraPapelTijera que tome como argumentos dos strings a y b que representen una jugada (piedra, papel, tijera) y dependiendo el devuelva un string con un mensaje avisando qué jugada ganó (o si hubo empate)
 
 /* const jugarPiedraPapelTijera = (a, b) => {
-
+    if(a==="piedra" && b==="papel" || a==="papel" && b==="piedra"){
+        console.log("Ganó papel!")
+    }else if (a==="tijera" && b==="piedra" || a==="piedra" && b==="tijera"){
+        console.log("Ganó piedra!")
+    }else if (a==="tijera" && b==="papel" || a==="papel" && b==="tijera"){
+        console.log("Ganó tijera!")
+    } else if ((a==="piedra" || a==="papel" || a==="tijera") && (b==="piedra" || b==="papel" || b==="tijera"))  {
+        console.log("Empate!")
+    } else {
+        console.log("No sabe jugar!")
+    }
 };
+
 jugarPiedraPapelTijera('tijera', 'piedra')  // ¡Ganó piedra!
 jugarPiedraPapelTijera('piedra', 'tijera')  // ¡Ganó piedra!
 jugarPiedraPapelTijera('papel', 'piedra')   // ¡Ganó papel!
@@ -296,4 +307,5 @@ jugarPiedraPapelTijera('papel', 'tijera')   // ¡Ganó tijera!
 jugarPiedraPapelTijera('tijera', 'papel')   // ¡Ganó tijera!
 jugarPiedraPapelTijera('piedra', 'piedra')  // ¡Empate!
 jugarPiedraPapelTijera('papel', 'papel')    // ¡Empate!
-jugarPiedraPapelTijera('tijera', 'tijera')  // ¡Empate! */
+jugarPiedraPapelTijera('tijera', 'tijera')  // ¡Empate!
+jugarPiedraPapelTijera('cuchillo', 'tijera')  //  */
