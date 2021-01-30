@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/*     EJERCICIO 2  */
+/* body{
+    width: 70rem;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+    color: #111;
+}
+.titulo{
+    margin: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;    
+}
+input{
+    margin: 5px;
+    width: 10rem;
+    border-radius: 10px;
+    padding: 5px;
+} */
+
+/*     EJERCICIO 3  */
+/* body{
+    width: 64rem;
+    height: 43rem;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+#boton{
+    margin: 40px;
+    width: 7rem;
+    height: 2rem;
+}
+.texto{
+    width: 20rem;
+    height: 2rem;
+} */
+/*     EJERCICIO 5  */
+body{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.textArea{
+    margin: 10px;
+    
+}
+.caracteres{
+    margin: 5px;
+}
+.boton{
+    width: 5rem;
+    margin-left: 100px;
+}
+.textArea:focus{
+    outline: none;
+/*     border:3px solid rgb(91, 62, 196);
+ */    border-radius: 10px;
+}

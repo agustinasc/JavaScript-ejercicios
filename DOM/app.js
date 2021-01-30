@@ -85,7 +85,7 @@ changeWith(tamaño); */
         //Mayor o igual a 30° y menor a 35°	Naranja
         //Mayor a 35°	Rojo
 
-/* const temperaturaIngresada = prompt('Ingrese una temperatura');
+/*  const temperaturaIngresada = prompt('Ingrese una temperatura');
 
 const titulo = document.getElementById('titulo');
 
@@ -221,6 +221,64 @@ continente(continenteElegido); */
         //EJERCICIO 11 - comidas
         //En un documento html agregar imágenes de comidas, postres y bebidas (3 o 4 de cada uno). Dar estilos para que se muestren una al lado de la otra, que tengan algo de espacio con margenes y que tengan el mismo tamaño. Hacer un programa que al iniciarse pregunte mediante un prompt qué se desea ver (comidas, postres o bebidas) y mostrar sólo las imágenes de la categoría correspondiente.
 
+/* const foodToChooce = prompt('Que te gustaría elegir? Comidas, Bebidas o Postres?');
 
-          //EJERCICIO 12 -busqueda
-En un documento html crear una lista desordenada con al menos 10 items que consistan en oraciones, frases o citas. Hacer un programa que al iniciarse pregunte mediante un prompt por una palabra y destaque en rojo y en negrita aquellos items de la lista cuyo texto contenga dicha palabra.
+const comida = document.getElementById('comida');
+const bebida = document.getElementById('bebida');
+const postre = document.getElementById('postre');
+
+const foodToShow = (foodToChooce) =>{
+    if(foodToChooce==='comida'){
+        bebida.style.display = 'none';
+        postre.style.display = 'none';
+    }else if(foodToChooce==='bebida'){
+        comida.style.display = 'none';
+        postre.style.display = 'none';
+    }else if(foodToChooce==='postre'){
+        comida.style.display = 'none';
+        bebida.style.display = 'none';
+    }else {
+        confirm('No entendimos que querias, entonces te mostramos todas las opciones')
+    }
+};
+foodToShow(foodToChooce); */
+
+        //EJERCICIO 12 -busqueda
+        //En un documento html crear una lista desordenada con al menos 10 items que consistan en oraciones, frases o citas. Hacer un programa que al iniciarse pregunte mediante un prompt por una palabra y destaque en rojo y en negrita aquellos items de la lista cuyo texto contenga dicha palabra.
+
+const wordToChoose = prompt('Dime una palabra');
+
+const list = document.getElementsByTagName('li');
+const text1 = list[0].textContent;
+const text11 = text1.contains(wordToChoose);
+
+const remark = (text11) => {
+    if(text11==='true'){
+        text11.style.color = 'red'
+    }else{
+    }
+}
+remark('text1');   
+console.log(text1);
+
+
+/* const remark = includes('');
+
+remark.style.color = 'red'; */
+
+const lista = document.getElementsByTagName('li');
+const palabra = prompt('Dame la palabra a buscar');
+// console.log(lista[1]);
+
+for(let index = 0; index < lista.length; index++){
+  const element = lista[index];
+  if(element.innerText.toLowerCase().includes(palabra.toLowerCase())){
+    element.style.color = 'red';
+    element.style.fontWeight = 'bold';
+  } else {
+    null
+  }
+
+  // console.log("este es el indice=",index);
+  // console.log("este es el valor=",lista[index]);
+}

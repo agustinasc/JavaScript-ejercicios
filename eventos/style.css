@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+/* body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+   
+} */
+
+/* EJERCICIO 3 */
+/* .botones{
+    flex-direction: row;
+}
+button {
+    justify-content: center;  
+    width: 7rem;
+    margin: 10px;
+    padding: 5px;
+}
+ */
+/* EJERCICIO 4 */
+
+/* .cuadro{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 23vh;
+    padding: 1rem;
+    justify-content: space-between;
+}
+button{
+    background-color: rgb(190, 150, 219);
+} */
+/* EJERCICIO 5 */
+/* li{
+    font-weight: bold;
+} */
+
+
+/* EJERCICIO 6 */
+/*
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.titulo{
+    font-size: 4rem;
+}
+.grande{
+    width: 95%;
+    height: 50vh;
+    border: 1px solid black;
+}
+.chica{
+    height: 50vh;
+     border: 1px solid black;
+    background-color: cyan;
+}
+button {
+    padding: 90%;
+    font-size: 3rem;
+    margin: .5rem;
+}
+.botones{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+
+/* EJERCICIO 7 */
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: 4rem;
+}
+p{
+   font-size: 2rem;
+   margin: 1rem 5rem;
+}
+button{
+    height: 3rem;
+    width: 5rem;
+    margin: 10px;
+}
+.dark{
+    background-color: #111;
+    color: white;
+}
+.boton-dia{
+    display: none;
+} 
+.boton-dia-appear{
+    display: block;
+}
+.boton-noche{
+    display: none;
+}
+.boton-noche-appear{
+    display: block;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+.fa-moon{
+    color: #f1c40f;
+    font-size: 2rem;
+  }
+.fa-sun{
+    color: #f39c12;
+    font-size: 2rem;
+  }
+ 
+/* EJERCICIO 8 */
+/* body{
+    height: 2500px;
+} */
+
+
+/* EJERCICIO 9 y 10 */
+/* .mar-del-plata, .jujuy, .buenos-aires, .bariloche{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 2px solid black;
+}
+.imagen-grande{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+} */
+
+/* EJERCICIO 11 */
+/* .comedia, .terror, .accion{
+    display: none;
+    justify-content: space-evenly;
+}; */
+
+/* EJERCICIO 12 */
+/* .botones{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+button{
+    margin: 10px;
+    font-size: 1.5rem;
+    min-width: 2.5rem;
+}
+.texto{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
